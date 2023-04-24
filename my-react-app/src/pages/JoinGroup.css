@@ -1,0 +1,159 @@
+.JoinGroup {
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(99deg, #45326F, #C67B86);
+    font-family: 'Raleway', Verdana, sans-serif;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+  
+  body {
+    overflow: hidden;
+  } 
+  
+  .icon {
+    size:1.2rem;
+  }
+
+  .message {
+    font-family: 'Raleway', Verdana, sans-serif;
+    color: #2C2B5A;
+    font-size: small;
+
+  }
+
+  
+
+  .iconflex {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+  }
+  
+  .MyContainer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+    margin-top:170px;
+  }
+  
+
+
+ 
+  
+  .circle2 {
+    height: 1000px;
+    width: 1000px;
+    opacity:0.6;
+    border-radius: 50%;
+    background-image: linear-gradient(99deg,#C46186, #4D2D74);
+    position:relative;
+    bottom:25px;
+    right:500px;
+   
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  
+  .code-boxes1 {
+    margin-top: 30px;
+    background-color: #D1C6D6;
+    border-radius: 70px;
+    color:#a8729b;
+    font-family: 'Raleway', Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    text-shadow: 2px 4px 4px #bfb3be;
+    height: 250px;
+    padding: 12px;
+    /*margin-left:auto;
+    margin-bottom: 50px;
+    margin-right: auto;*/
+    width: 400px;
+    display: 'flex';
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.8;
+    margin-bottom: 55px;
+  }
+
+  .joingroupform {
+    margin-top:5px;
+    text-align: center;
+  }
+
+  .codeFormat {
+    color: #2C2B5A;
+    font-family: 'Raleway', Verdana, sans-serif;
+    margin:8px;
+  }
+  
+  .code-boxes2 {
+    margin-top:30px;
+    background-color: #D1C6D6;
+    border-radius: 60px;
+    color:#a8729b;
+    font-family: 'Raleway', Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    text-shadow: 2px 4px 4px #bfb3be;
+    height: 200px;
+    padding: 12px;
+    margin-left:auto;
+    margin-bottom: 50px;
+    margin-right: auto;
+    width: 400px;
+    display: 'flex';
+    align-items: center;
+    opacity: 0.8;
+  }
+  
+  .input[type=text] {
+    border: none;
+    border-bottom: 2px solid #2C2B5A;
+    background-color: #D1C6D6;
+    color: #2C2B5A;
+    display: flex;
+    padding: 10px 20px;
+    font-size:20px;
+    margin: auto;
+  }
+  .code {
+    border-radius: 4px;
+    background-color: #D1C6D6;
+    box-sizing: border-box;
+    /* border: 2px solid #2C2B5A; */
+    margin: 0px;
+    background: transparent;
+    border-bottom: 2px solid #2C2B5A !important;
+  }
+
+  
+  .buttonJoinGroup {
+    background-image: linear-gradient(to right, #c07584 0%, #b46b84 51%, #a35982 100%);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin:20px;
+  }
+  
+  .buttonJoinGroup:hover {
+    background-image: linear-gradient(99deg,#C46186, #4D2D74);
+  }

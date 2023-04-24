@@ -1,0 +1,123 @@
+.page-container{
+  background: url("./background.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    /* rest of the styles */
+  }
+  .loginSquare{
+    position:absolute;
+    background-color: rgba(238, 228, 241, 0.969);
+    opacity: 0.8;
+    left:10%;
+    right:10%;
+    width:80%;
+    height: 80%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 45px 45px 45px 45px;
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+   *,
+   *:after,
+   *:before {
+    box-sizing: border-box;
+}
+  
+body {
+  font: 100% 'Raleway', sans-serif;
+  color: #55595c;
+  font-size: 15%;
+  overflow: hidden;
+ }
+   
+   
+   h1 {
+    margin-top: 0;
+    margin-bottom: 3.236rem;
+    text-align: center;
+    font-size: 1.618rem;
+   }
+   
+   
+
+
+
+   .btn2 {
+    color: white !important;
+    background-image: linear-gradient(99deg, #C67B86, #45326F) !important;
+    border: none !important;
+    padding: 10px 70px !important;
+    text-align: center !important;
+    display: flex !important;
+    display: grid !important;
+    margin: auto !important;
+    position: relative !important;
+    font-size: 20px !important;
+    border-radius: 12px !important;
+    transition-duration: 0.4s !important;
+    width: 80% !important; 
+    transform: translate(0, 500%) !important;
+  }
+   
+   .btn2:focus, .btn2:hover {
+    color: white !important;
+    background-color: #C67B86 !important;
+    box-shadow: 0 18px 35px rgba(50, 50, 93, 0.1), 0 8px 15px rgba(0, 0, 0, 0.07) !important;
+   }
+   .btn2:focus {
+    outline: 0 !important;
+   }
+
+   .button-container {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 20px; */
+  }
+  
+  /* .btn-remind {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .btn-delete {
+    padding: 10px 20px;
+    border: 1px solid #2C2B5A;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+
+   .taskDescription{
+    border: 1px solid black; 
+    position: center;
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    padding: 10px;
+    font: 100% 'Raleway', sans-serif;
+    color: #55595c;
+    font-size: 50%;
+    position: absolute; 
+    left: 50%; 
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+  }
+
